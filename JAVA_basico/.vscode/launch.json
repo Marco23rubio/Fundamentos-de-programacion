@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ciclo_numeros_primos",
+            "request": "launch",
+            "mainClass": "ciclo_numeros_primos",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch numero_par",
+            "request": "launch",
+            "mainClass": "numero_par",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch promedio",
+            "request": "launch",
+            "mainClass": "promedio",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch funciones",
+            "request": "launch",
+            "mainClass": "funciones",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch menor_mayor",
+            "request": "launch",
+            "mainClass": "menor_mayor",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch inputs",
+            "request": "launch",
+            "mainClass": "inputs",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concatenar",
+            "request": "launch",
+            "mainClass": "Concatenar",
+            "projectName": "JAVA_basico_6c1e617c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA_basico_6c1e617c"
+        }
+    ]
+}

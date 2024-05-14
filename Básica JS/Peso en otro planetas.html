@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Peso en otros planetas</title>
+    <style media="screen">
+      body
+      {
+          font-family:Arial;
+          background-color: blue;
+          color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tu peso en otros planetas</h1>
+    <script type="text/javascript">
+      var usuario = prompt("Cual es tu peso en kg");
+          planeta = parseInt(prompt("¿Qué planeta deseas? \n 1:marte o 2:jupiter"));
+          peso = parseFloat(usuario);
+          g_tierra = 9.8;
+          g_marte = 3.7;
+          g_jupiter = 24.8;
+          nombre="";
+          if(planeta==1)
+          {
+            peso_final = (peso*g_marte)/g_tierra;
+            nombre = "marte";
+          }
+          else if (planeta==2)
+          {
+            peso_final = (peso*g_jupiter)/g_tierra;
+            nombre = "jupiter"
+          }
+          else
+          {
+            peso_final= 100000;
+            nombre= "asgard";
+          }
+          document.write("Tu peso en "+ nombre +" es de "+peso_final.toFixed(2)+"<strong> kg</strong>");
+    </script>
+  </body>
+</html>
